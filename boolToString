@@ -1,0 +1,12 @@
+#include <iostream>
+
+std::string boolToString( bool val ) {
+	return val == 1 ? "true" : "false";
+}
+
+int main( int argc, char* arv[] ) {
+
+	std::cout << boolToString( 1 );
+
+	std::cout << std::endl;
+}
